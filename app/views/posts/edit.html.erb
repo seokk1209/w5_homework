@@ -1,0 +1,18 @@
+<h2 class = "main_title mt-5 mb-2" style =" text-align:center;">게시물 수정</h2>
+<hr>
+<!--<form action = '/posts/update/<%= @post.id %>' method = 'POST'>-->
+<!--    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>-->
+<!--    <input type ='text' name = 'post_title' value='<%=@post.title%>'></input>-->
+<!--    <textarea name='post_content'>value='<%=@post.content%>'</textarea>-->
+<!--    <input type ='submit' value='제출'></input>-->
+
+<!--</form>-->
+
+<!--<%= form_for(@post, url: post_path, method: 'patch') do |f| %>-->
+<!--    <%= f.text_field :title %>-->
+<!--    <%= f.text_area :content %>-->
+<!--    <%= f.submit '제출' %>-->
+<!--<% end %>-->
+
+
+<%= render 'form' %>
